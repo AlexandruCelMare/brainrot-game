@@ -1,15 +1,17 @@
-# Mobile Game Template
+# Visual Novel Game Template
 
-A Unity-based mobile game template with basic movement controls.
+A Unity-based visual novel game template with dialogue system and character management.
 
 ## Project Structure
 
 - `Assets/`: Contains all game assets
-  - `Scenes/`: Game scenes
   - `Scripts/`: C# scripts
-  - `Prefabs/`: Reusable game objects
-  - `Sprites/`: 2D graphics
-  - `UI/`: User interface elements
+    - `Core/`: Core game mechanics
+    - `UI/`: User interface scripts
+  - `Resources/`: Game resources
+    - `Dialogues/`: Dialogue files
+    - `Characters/`: Character sprites and portraits
+    - `Backgrounds/`: Background images
 - `ProjectSettings/`: Unity project configuration
 - `Packages/`: Unity package management
 
@@ -17,16 +19,21 @@ A Unity-based mobile game template with basic movement controls.
 
 1. Clone this repository
 2. Open project in Unity Hub
-3. Open the Main scene in Assets/Scenes
-4. Press Play to test
+3. Create a new scene
+4. Add the DialogueManager component to a GameObject
+5. Set up UI elements in the scene
+6. Create dialogue files in Resources/Dialogues
 
 ## Development
 
-The `PlayerController.cs` script provides basic movement controls for prototyping.
+The project includes:
+- Dialogue system with support for character names and portraits
+- Background image management
+- Basic UI setup for visual novel presentation
 
-## Building for Mobile
-
-1. File -> Build Settings
-2. Switch platform to Android/iOS
-3. Configure player settings
-4. Build and run
+## Features
+- Text display system
+- Character portrait system
+- Background image system
+- Choice system (coming soon)
+- Save/Load system (coming soon)
