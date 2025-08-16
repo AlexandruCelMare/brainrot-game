@@ -1,0 +1,4 @@
+repository "brainrot-game/brainrot-game@1375848489510@cloud"
+  path "/"
+    br "/main"
+    co "/main"
